@@ -1,0 +1,57 @@
+body {
+  font-size: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Verdana, Arial;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 200%;
+}
+
+h4 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: black;
+}
+
+#homepage {
+  margin-top: 0px;
+  padding: 40px 20px 20px 20px;
+}
+
+.pic {
+  float: right;
+  height: 200px;
+  padding: 0px 30px 0px 30px;
+}
+
+.header-block {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.header {
+  display: inline-block;
+  float: left;
+}
+
+.toggle:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1400px) {
+  .pic {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 1.25em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
