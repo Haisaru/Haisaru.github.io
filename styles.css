@@ -42,7 +42,7 @@ h4 {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1375px) {
   .pic {
     display: none;
   }
