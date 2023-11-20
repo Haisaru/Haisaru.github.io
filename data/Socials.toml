@@ -1,0 +1,23 @@
+# For the `icon`, see SVG.toml
+
+[[socials]]
+    id = "github"
+    url = "https://github.com/haisaru"
+    icon = "github"
+    title = "GitHub"
+    weight = 1
+
+[[socials]]
+    id = "linkedin"
+    url = "https://www.linkedin.com/in/lijasonli/"
+    icon = "linkedin"
+    title = "LinkedIn"
+    weight = 2
+
+[[socials]]
+    id = "email"
+    url = "mailto:jasonli2442@gmail.com"
+    icon = "envelope"
+    title = "Email"
+    weight = 3
+
