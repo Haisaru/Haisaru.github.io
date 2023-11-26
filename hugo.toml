@@ -102,7 +102,7 @@ uglyURLs = false
     # Email
     email = "jasonli2442@gmail.com"
     # Avatar
-    avatar = "/icons/apple-touch-icon.png"
+    avatar = "/icons/android-chrome-512x512.png"
     # Personal website, default: baseURL
     website = "https://lijason.ca"
 
@@ -207,24 +207,24 @@ uglyURLs = false
          post = "home"
     [[menu.main]]
         pageref = "/posts/"
-        name = "Blog Posts"
+        name = "Blog"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
-        pageref = "/exercises/"
-        name = "Exercises"
+        pageref = "/notes/"
+        name = "Notes"
         weight = 3
         pre = "internal"
         post = "th"
     [[menu.main]]
         pageref = "/about/"
         name = "About"
-        weight = 4
+        weight = 5
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 5
+        weight = 6
         identifier = "theme-switcher"
 
 
@@ -338,7 +338,7 @@ uglyURLs = false
     ######################################
     # Site Info
 
-    siteLogo = "/icons/apple-touch-icon.png"
+    siteLogo = "/icons/android-chrome-512x512.png"
     # Note: used for JSON-LD, Open Graph
 
     siteDescription = "Personal site and blog of Jason Li."
@@ -349,7 +349,7 @@ uglyURLs = false
     # ATTENTION: keep this format, change
     #            the number
 
-    siteTwitter = "reuixiy"
+    # siteTwitter = "reuixiy"
     # Note: used for Twitter Cards
 
 
@@ -416,7 +416,7 @@ uglyURLs = false
     ######################################
     # Tags Page
 
-    enableTagCloud = true
+    enableTagCloud = false
 
     fontUnit = "em"
     largestFontSize = 2.5
@@ -569,7 +569,7 @@ uglyURLs = false
 
     jsonLD = true
     openGraph = true
-    twitterCards = true
+    twitterCards = false
     # ATTENTION: If you set twitterCards
     #            to `true`, be sure to
     #            enable openGraph also.
