@@ -7,4 +7,5 @@ displayPublishedDate = false
 
 
  - [Day 1]({{<ref "./day1.md">}})
+ - [Day 2]({{<ref "./day2.md">}})
 
