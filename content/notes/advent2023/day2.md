@@ -4,7 +4,7 @@ date = 2023-12-02T01:46:47-05:00
 draft = false
 +++
 
-Unlike day 2, I found the second part very quickly after having the first part done.
+Unlike day 1, I found the second part very quickly after having the first part done.
 
 # Part 1
 ```
