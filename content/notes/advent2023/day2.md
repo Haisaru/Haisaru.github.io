@@ -45,7 +45,7 @@ def checkValue(line: str) -> int:
 
 
 if __name__ == "__main__":
-    filename = "input1.txt"
+    filename = "input.txt"
 
     with open(filename, encoding="utf-8") as f:
         total = 0
@@ -86,7 +86,7 @@ def checkPower(line: str) -> int:
 
 
 if __name__ == "__main__":
-    filename = "input2.txt"
+    filename = "input.txt"
 
     with open(filename, encoding="utf-8") as f:
         total = 0

@@ -11,7 +11,7 @@ operator in regex that I finished the solution.
 
 # Part 1
 ```
-filename = "input1.txt"
+filename = "input.txt"
 with open(filename, encoding="utf-8") as f:
     total = 0
     for line in f:
@@ -37,7 +37,7 @@ def convert_str_to_int(number):
 
 
 if __name__ == "__main__":
-    filename = "input2.txt"
+    filename = "input.txt"
     digits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
     # match substring if and only if the following characters is a digit, or one, two,..., nine
