@@ -13,3 +13,4 @@ content_type = "text"
  - [Day 4]({{<ref "./day-4.md">}})
  - [Day 5]({{<ref "./day-5.md">}})
  - [Day 6]({{<ref "./day-6.md">}})
+ - [Day 7]({{<ref "./day-7.md">}})
