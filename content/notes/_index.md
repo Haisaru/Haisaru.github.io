@@ -6,4 +6,4 @@ displayPublishedDate = false
 +++
 Here is a collection of notes and exercises I have completed in the past.
 
- - [Advent of Code 2023]({{<ref "advent2023">}})
+ - [Advent of Code 2023]({{<ref "advent-2023">}})

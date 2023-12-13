@@ -39,4 +39,3 @@ Here is a list of some of my most memorable or enjoyable classes from my time st
 - [CSC311: Introduction to Machine Learning](https://www.cs.toronto.edu/~rahulgk/courses/csc311_f23/index.html)
 - CSC369: Operating Systems
 - [CSC413: Neural Networks](https://uoft-csc413.github.io/2023/#/contents/04-assignments)
-
