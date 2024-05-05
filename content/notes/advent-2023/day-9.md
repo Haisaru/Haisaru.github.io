@@ -35,33 +35,6 @@ if __name__ == "__main__":
 # Part 2
 
 ```
-if __name__ == "__main__":
-    filename = "input.txt"
-    with open(filename, encoding="utf-8") as f:
-        network = {}
-        inst = f.readline().strip()
-        f.readline()
-        for line in f:
-            curr, next_up = line.split("=")
-            next_up = next_up.strip()
-            network[curr.strip()] = (next_up[1:4], next_up[6:9])
-        curr = "AAA"
-        counter = 0
-        inst_index = 0
-        inst_len = len(inst)
-        while curr != "ZZZ":
-            if inst[inst_index % inst_len] == "L":
-                curr = network[curr][0]
-            else:
-                curr = network[curr][1]
-            counter += 1
-            inst_index += 1
-        print(counter)
-```
-
-# Part 2
-
-```
 def extrapolate(history: str) -> int:
     history = history.split()
     history = [int(num) for num in history]
