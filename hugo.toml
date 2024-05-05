@@ -1229,7 +1229,7 @@ uglyURLs = false
     #       older post if you click next
     #       on the right.
 
-    enablePostNav = true
+    enablePostNav = false
 
     # Apply to posts that below the same
     # top level section only?
