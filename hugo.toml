@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` automatically opened text editor
-newContentEditor = ""
+newContentEditor = "vim"
 
 # i18n
 defaultContentLanguage = "en"
@@ -151,7 +151,6 @@ uglyURLs = false
 # Hugo’s output control
 [outputs]
     page = ["HTML"]
-    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
     home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
     section = ["HTML"]
     taxonomy = ["HTML"]
@@ -206,7 +205,7 @@ uglyURLs = false
          pre = "internal"
          post = "home"
     [[menu.main]]
-        pageref = "/posts/"
+        pageref = "/blog/"
         name = "Blog"
         weight = 2
         pre = "internal"
@@ -821,7 +820,7 @@ uglyURLs = false
     #            specified format
     #            https://gohugo.io/functions/format/
 
-    displayPublishedDate = true
+    displayPublishedDate = false
     publishedDateIcon = "calendar-alt"
 
     displayModifiedDate = false
@@ -1182,7 +1181,7 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    postShareItems = ["facebook", "twitter", "linkedin", "qrcode", "email"]
+    postShareItems = [ "twitter", "linkedin", "qrcode", "email"]
 
     # Fetch fediverse instances list for
     # input suggestions

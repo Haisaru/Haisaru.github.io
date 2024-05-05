@@ -6,11 +6,12 @@ displayPublishedDate = false
 content_type = "text"
 +++
 
-
- - [Day 1]({{<ref "./day-1.md">}})
- - [Day 2]({{<ref "./day-2.md">}})
- - [Day 3]({{<ref "./day-3.md">}})
- - [Day 4]({{<ref "./day-4.md">}})
- - [Day 5]({{<ref "./day-5.md">}})
- - [Day 6]({{<ref "./day-6.md">}})
- - [Day 7]({{<ref "./day-7.md">}})
+- [Day 1]({{<ref "./day-1.md">}})
+- [Day 2]({{<ref "./day-2.md">}})
+- [Day 3]({{<ref "./day-3.md">}})
+- [Day 4]({{<ref "./day-4.md">}})
+- [Day 5]({{<ref "./day-5.md">}})
+- [Day 6]({{<ref "./day-6.md">}})
+- [Day 7]({{<ref "./day-7.md">}})
+- [Day 8]({{<ref "./day-8.md">}})
+- [Day 9]({{<ref "./day-9.md">}})
