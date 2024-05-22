@@ -851,7 +851,7 @@ uglyURLs = false
     # Markdown Related
 
     # Open external links in a new tab?
-    hrefTargetBlank = true
+    hrefTargetBlank = false
 
 
     ######################################
