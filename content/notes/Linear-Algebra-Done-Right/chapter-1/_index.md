@@ -5,4 +5,5 @@ draft = true
 displayPublishedDate = false
 +++
 
- - [Chapter 1]({{<ref "chapter-1">}})
+ - [1.1]({{<ref "1-1.md">}})
+ - [1.2]({{<ref "1-2.md">}})
