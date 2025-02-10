@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://lijason.ca"
-title = "Jason Li - Math and CS @ UofT"
+title = "Jason Li"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -39,7 +39,7 @@ enableRobotsTXT = true
 # Number of items per page in paginated
 # lists (valid for the `posts` homepage
 # layout in MemE)
-paginate = 5
+pagination.pagerSize = 5
 
 # URL related
 disablePathToLower = false
@@ -216,14 +216,14 @@ uglyURLs = false
          pre = "internal"
          post = "home"
     [[menu.main]]
-        pageref = "/blog/"
-        name = "Blog"
+        pageref = "/content/"
+        name = "Content"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
-        pageref = "/notes/"
-        name = "Notes"
+        pageref = "/contact/"
+        name = "Contact"
         weight = 3
         pre = "internal"
         post = "th"
