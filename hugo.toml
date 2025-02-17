@@ -831,7 +831,7 @@ uglyURLs = false
     #            specified format
     #            https://gohugo.io/functions/format/
 
-    displayPublishedDate = false
+    displayPublishedDate = true
     publishedDateIcon = "calendar-alt"
 
     displayModifiedDate = false
@@ -1141,7 +1141,7 @@ uglyURLs = false
 
     enablePostUpdatedBadge = false
 
-    displayUpdatedBadge = true
+    displayUpdatedBadge = false
     # Note: *global settings*
     #       `badge` in post’s Front Matter
     #       has a higher priority than here
